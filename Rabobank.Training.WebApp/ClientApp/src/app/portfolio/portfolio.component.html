@@ -1,0 +1,27 @@
+<h2>Portfolio</h2>
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Code</th>
+      <th scope="col">Name</th>
+      <th class="align-right" scope="col">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let position of portfolioViewModel.positions">
+      <th scope="row">{{position.code}}</th>
+      <td>{{position.name}}</td>
+      <td class="align-right">{{position.value | currency:'EUR':true:'2.0'}}</td>
+
+      <td class="mandate-td" *ngIf="position.mandates.length>0">
+        <table class="inline-table" width="100%">
+          <tr *ngFor="let mandate of position.mandates">
+            <td class="border-none">{{mandate.name}}</td>
+            <td class="border-none align-right">{{mandate.allocation}}%</td>
+            <td style="padding:0px;" class="border-none align-right">{{mandate.value| currency:'EUR':true:'2.0'}}</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
