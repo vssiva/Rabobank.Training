@@ -1,43 +1,43 @@
-﻿using FluentAssertions;
-using NUnit.Framework;
+﻿using System.Linq;
+using FluentAssertions;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Rabobank.Training.ClassLibrary.Builders;
-using System.IO;
-using System;
-using System.Collections.Generic;
 using Rabobank.Training.ClassLibrary.ViewModels;
-using System.Linq;
 
 namespace Rabobank.Training.ClassLibrary.Test
 {
+    [TestClass]
     public class PortfolioShould
     {
-        private PortfolioBuilder _FundOfMandatesBuilder;
-        private PortfolioViewModel _PortfolioViewModel;
+        private readonly PortfolioViewModel _portfolioViewModel;
+        private readonly PortfolioBuilder _portfolioBuilder;
 
-        [SetUp]
-        public void Setup()
+        public PortfolioShould()
         {
-            _FundOfMandatesBuilder = new PortfolioBuilder();
-            _PortfolioViewModel = _FundOfMandatesBuilder.GetPortfolio();
+            _portfolioBuilder = new PortfolioBuilder();
+            _portfolioViewModel = _portfolioBuilder.GetPortfolio();
         }
 
-        [Test]
+
+        [TestMethod]
         public void ReturnPositionList()
         {
-            _PortfolioViewModel.Positions.Should().NotBeNull();
-            _PortfolioViewModel.Positions.Should().HaveCountGreaterOrEqualTo(1);
+            _portfolioViewModel.Positions.Should().NotBeNull();
+            _portfolioViewModel.Positions.Should().HaveCountGreaterOrEqualTo(1);
         }
-        [Test]
+
+        [TestMethod]
         public void HaveMatchedFundOfMandateInstrumentCode()
         {
-            _PortfolioViewModel.Positions.Should().NotBeNull();
-            _PortfolioViewModel.Positions.Find(x => x.Mandates.Count > 0).Should().NotBeNull();
+            _portfolioViewModel.Positions.Should().NotBeNull();
+            _portfolioViewModel.Positions.Find(x => x.Mandates.Count > 0).Should().NotBeNull();
         }
-        [Test]
+
+        [TestMethod]
         public void HaveLiquidity()
         {
-            _PortfolioViewModel.Positions.Should().NotBeNull();
-            _PortfolioViewModel.Positions.Any(x => x.Mandates.Any(y => y.Name == "Liquidity")).Should().BeTrue();
+            _portfolioViewModel.Positions.Should().NotBeNull();
+            _portfolioViewModel.Positions.Any(x => x.Mandates.Any(y => y.Name == "Liquidity")).Should().BeTrue();
         }
     }
 }

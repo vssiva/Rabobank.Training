@@ -106,11 +106,9 @@ F:\WorkArea\2020\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\obj\Debug
 F:\WorkArea\2020\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\obj\Debug\netcoreapp3.1\Rabobank.Training.ClassLibrary.Test.genruntimeconfig.cache
 F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\Schemas\FundsOfMandatesData.xml
 F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\Schemas\FundsOfMandatesData.xsd
-F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
-F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
-F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\nunit.engine.dll
-F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
-F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\nunit.engine.core.dll
+F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\TestData\FundsOfMandatesData.xml
 F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\Rabobank.Training.ClassLibrary.Test.deps.json
 F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\Rabobank.Training.ClassLibrary.Test.runtimeconfig.json
@@ -119,7 +117,6 @@ F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netc
 F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\Rabobank.Training.ClassLibrary.Test.pdb
 F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\FluentAssertions.dll
 F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
-F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll
 F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
 F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
@@ -128,12 +125,12 @@ F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netc
 F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.Utilities.dll
 F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.Common.dll
 F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\testhost.dll
+F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
-F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\nunit.framework.dll
 F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
 F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 F:\WorkArea\Rabobank.Training\Rabobank.Training.ClassLibrary.Test\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CoreUtilities.resources.dll

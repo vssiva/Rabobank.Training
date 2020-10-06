@@ -1,31 +1,33 @@
-using FluentAssertions;
-using NUnit.Framework;
-using Rabobank.Training.ClassLibrary.Builders;
-using System.IO;
 using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Reflection;
+using FluentAssertions;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Rabobank.Training.ClassLibrary.Builders;
 
 namespace Rabobank.Training.ClassLibrary.Test
 {
+    [TestClass]
     public class FundOfMandatesShould
     {
-        private PortfolioBuilder fundOfMandatesBuilder;
-        private List<FundOfMandates> fundOfMandates;
+        private List<FundOfMandates> _fundOfMandates;
+        private readonly PortfolioBuilder _portfolioBuilder;
 
-        [SetUp]
-        public void Setup()
+        public FundOfMandatesShould()
         {
-            fundOfMandatesBuilder = new PortfolioBuilder();
-            fundOfMandates = new List<FundOfMandates>();
+            _portfolioBuilder = new PortfolioBuilder();
+            _fundOfMandates = new List<FundOfMandates>();
         }
 
-        [Test]
+        [TestMethod]
         public void ReturnFundOfMandatesList()
         {
-            var xmlFilePath = new Uri(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().CodeBase)).LocalPath + "\\TestData\\FundsOfMandatesData.xml";
-            fundOfMandates = fundOfMandatesBuilder.ReadFundOfMandatesFile(xmlFilePath);
-            fundOfMandates.Should().NotBeNull();
-            fundOfMandates.Should().HaveCountGreaterOrEqualTo(1);
+            var xmlFilePath = new Uri(Path.GetDirectoryName(Assembly.GetExecutingAssembly().CodeBase)).LocalPath +
+                              "\\TestData\\FundsOfMandatesData.xml";
+            _fundOfMandates = _portfolioBuilder.ReadFundOfMandatesFile(xmlFilePath);
+            _fundOfMandates.Should().NotBeNull();
+            _fundOfMandates.Should().HaveCountGreaterOrEqualTo(1);
         }
     }
 }
